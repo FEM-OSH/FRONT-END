@@ -1,13 +1,15 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import { Button } from "./atoms/Buttons";
 import { colors } from "./reusables";
-import { Logo } from "./atoms/Logo/index";
+import Logo from "./images/logo.jpg"
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Logo />
+      <img src={Logo} className="logo" />
       <nav>
         <a href="#">About</a>
         <a href="#">Contact</a>
