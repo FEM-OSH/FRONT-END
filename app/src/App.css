@@ -1,4 +1,10 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
 .logo {
-    height: 10rem;
+    height: 3rem;
     width: 10rem;
 }

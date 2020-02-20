@@ -2,32 +2,37 @@ import React from "react";
 // import { NavLink } from "react-router-dom";
 import { Button } from "./atoms/Buttons";
 import { colors } from "./reusables";
-import Logo from "./images/logo.jpg"
+import Logo from "./images/logo.jpg";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <img src={Logo} className="logo" />
-      <nav>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">FAQ</a>
-        <a>
+      <header>
+        <img src={Logo} className="logo" />
+        <nav>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">FAQ</a>
+          <a>
+            <Button
+              small
+              background={colors.tertiary}
+              fontColor={colors.secondary}
+            >
+              Login
+            </Button>
+          </a>
           <Button
             small
             background={colors.tertiary}
             fontColor={colors.secondary}
           >
-            Login
+            Signup
           </Button>
-        </a>
-        <Button small background={colors.tertiary} fontColor={colors.secondary}>
-          Signup
-        </Button>
-      </nav>
-
+        </nav>
+      </header>
       <div>
         <h5>First Online</h5>
         <h1>Peer-to-Peer</h1>
