@@ -5,6 +5,14 @@ header {
     padding: 1.5rem;
 }
 .logo {
-    height: 3rem;
-    width: 10rem;
+    height: 2rem;
+    width: 7rem;
+}
+nav a {
+    margin: 1.2rem;
+    text-decoration: none;
+}
+.image1 {
+    height: 55rem;
+    width: 55rem;
 }

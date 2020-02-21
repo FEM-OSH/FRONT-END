@@ -3,6 +3,7 @@ import React from "react";
 import { Button } from "./atoms/Buttons";
 import { colors } from "./reusables";
 import Logo from "./images/logo.jpg";
+import Image1 from "./images/Web-image1.png";
 
 import "./App.css";
 
@@ -33,7 +34,8 @@ function App() {
           </Button>
         </nav>
       </header>
-      <div>
+      <div className="second-container">
+      <div className="left-content">
         <h5>First Online</h5>
         <h1>Peer-to-Peer</h1>
         <h2>Lending platform</h2>
@@ -44,6 +46,8 @@ function App() {
         <Button small background={colors.tertiary} fontColor={colors.secondary}>
           Get Started
         </Button>
+      </div>
+      <img src={Image1} className="image1" />
       </div>
       <div>
         <button>How To Get Started </button>
