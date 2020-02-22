@@ -36,7 +36,7 @@ function App() {
       </header>
       <div className="second-container">
       <div className="left-content">
-        <h5>First Online</h5>
+        <h3>First Online</h3>
         <h1>Peer-to-Peer</h1>
         <h2>Lending platform</h2>
         <p>

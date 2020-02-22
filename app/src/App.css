@@ -12,7 +12,34 @@ nav a {
     margin: 1.2rem;
     text-decoration: none;
 }
-.image1 {
-    height: 55rem;
-    width: 55rem;
+.second-container {
+    display: flex;
 }
+.left-content{
+    padding: 5rem 0 0 2rem;
+    line-height: 3rem;
+}
+.left-content h3{
+    color: #1063CF;
+    font-size: 1.4rem;
+}
+.left-content h1{
+    color: #1063CF;
+    font-size: 4rem;
+}
+.left-content h2{
+    color: #1063CF;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.left-content p{
+    font-size: 1.2rem;
+}
+/* .left-content Button {
+    text-align: center;
+} */
+.image1 {
+    height: 35rem;
+    width: 50rem;
+}
+
