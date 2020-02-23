@@ -4,6 +4,9 @@ import { Button } from "./atoms/Buttons";
 import { colors } from "./reusables";
 import Logo from "./images/logo.jpg";
 import Image1 from "./images/Web-image1.png";
+import Image2 from "./images/Web-image2.png";
+import Image3 from "./images/Web-image3.png";
+// import Image4 from "./images/Web-image4.png";
 
 import "./App.css";
 
@@ -116,6 +119,9 @@ function App() {
       <div>Avoid lending money to the wrong hands... Join lender today</div>
       <div>Rate credit worthiness and avoid fraudsters</div>
       <div>Available on</div>
+      <img src={Image2} className="image2" />
+      <img src={Image3} className="image3" />
+      {/* <img src={Image4} className="image4" /> */}
 
       {/* <Footer>
         Borrow>>> <br/>
