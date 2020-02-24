@@ -53,7 +53,9 @@ function App() {
       <img src={Image1} className="image1" />
       </div>
       <div>
-        <button>How To Get Started </button>
+      <Button large background={colors.tertiary} fontColor={colors.secondary}>
+          How To Get Started
+        </Button>
         <div>
           <div>
             <div>Create your account</div>
