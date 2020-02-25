@@ -38,22 +38,26 @@ function App() {
         </nav>
       </header>
       <div className="second-container">
-      <div className="left-content">
-        <h3>First Online</h3>
-        <h1>Peer-to-Peer</h1>
-        <h2>Lending platform</h2>
-        <p>
-          Providing you easy access to funds from family and friends when you
-          most need it.
-        </p>
-        <Button small background={colors.tertiary} fontColor={colors.secondary}>
-          Get Started
-        </Button>
-      </div>
-      <img src={Image1} className="image1" />
+        <div className="left-content">
+          <h3>First Online</h3>
+          <h1>Peer-to-Peer</h1>
+          <h2>Lending platform</h2>
+          <p>
+            Providing you easy access to funds from family and friends when you
+            most need it.
+          </p>
+          <Button
+            small
+            background={colors.tertiary}
+            fontColor={colors.secondary}
+          >
+            Get Started
+          </Button>
+        </div>
+        <img src={Image1} className="image1" />
       </div>
       <div>
-      <Button large background={colors.tertiary} fontColor={colors.secondary}>
+        <Button Large background={colors.tertiary} fontColor={colors.secondary}>
           How To Get Started
         </Button>
         <div>
@@ -129,6 +133,15 @@ function App() {
         Borrow>>> <br/>
         Lend>>>
       </Footer> */}
+      <section class="middle-content">
+        <h2>Why Did It Have To Be Boxes...</h2>
+        <div class="boxes">
+          <div class="box1">Box 1</div>
+          <div class="box2">Box 2</div>
+          <div class="box3">Box 3</div>
+          <div class="box4">Box 4</div>
+        </div>
+      </section>
     </div>
   );
 }
