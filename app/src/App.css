@@ -62,43 +62,47 @@ nav a {
 }
 
 .middle-content .boxes .box1 {
-    width: 12.5%;
-    height: 100px;
-    background: teal;
-    margin: 20px 2.5%;
+    width: 15.5%;
+    height: 200px;
+    background: #1063CF;
+    margin: 20px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
 }
 .middle-content .boxes .box2 {
-    width: 12.5%;
-    height: 100px;
-    background: gold;
-    margin: 20px 2.5%;
+    width: 15.5%;
+    height: 200px;
+    background: #1063CF;
+    margin: 20px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
 }
 .middle-content .boxes .box3 {
-    width: 12.5%;
-    height: 100px;
-    background: cadetblue;
-    margin: 20px 2.5%;
+    width: 15.5%;
+    height: 200px;
+    background: #1063CF;
+    margin: 20px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
 }
 .middle-content .boxes .box4 {
-    width: 12.5%;
-    height: 100px;
-    background: coral;
-    margin: 20px 2.5%;
+    width: 15.5%;
+    height: 200px;
+    background: #1063CF;
+    margin: 20px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
 }
 /* Middle content */

@@ -57,42 +57,35 @@ function App() {
         <img src={Image1} className="image1" />
       </div>
       <div>
-        <Button Large background={colors.tertiary} fontColor={colors.secondary}>
+        <Button medium background={colors.tertiary} fontColor={colors.secondary}>
           How To Get Started
         </Button>
-        <div>
-          <div>
-            <div>Create your account</div>
-            <p>
+        <section class="middle-content">
+        <h2>Why Did It Have To Be Boxes...</h2>
+        <div class="boxes">
+          <div class="box1"><div>Create your account</div>
+          <p>
               Sign Up at the top left corner of this page,verify your email and
               login.{" "}
             </p>
           </div>
-
-          <div>
-            <div>Add family &amp; friends</div>
+          <div class="box2"><div>Add family &amp; friends</div>
             <p>
               Add your people who would be able to render help in your time of
               need.{" "}
-            </p>
-          </div>
-
-          <div>
-            <div>Take our credit test</div>
+            </p></div>
+          <div class="box3"><div>Take our credit test</div>
             <p>
               This is more of a survey that contains details for your profile
               and access your credit rating.{" "}
-            </p>
-          </div>
-
-          <div>
-            <div>Request/accept loan request</div>
+            </p></div>
+          <div class="box4"><div>Request/accept loan request</div>
             <p>
               Request for loan from friend, accept/reject an already initiated
               request
-            </p>
-          </div>
+            </p></div>
         </div>
+      </section>
       </div>
       <div>That friend who never repays his debt</div>
       <div>Lessons learnt from my sad experience</div>
@@ -133,15 +126,6 @@ function App() {
         Borrow>>> <br/>
         Lend>>>
       </Footer> */}
-      <section class="middle-content">
-        <h2>Why Did It Have To Be Boxes...</h2>
-        <div class="boxes">
-          <div class="box1">Box 1</div>
-          <div class="box2">Box 2</div>
-          <div class="box3">Box 3</div>
-          <div class="box4">Box 4</div>
-        </div>
-      </section>
     </div>
   );
 }
