@@ -37,6 +37,7 @@ function App() {
           </Button>
         </nav>
       </header>
+
       <div className="second-container">
         <div className="left-content">
           <h3>First Online</h3>
@@ -87,8 +88,12 @@ function App() {
         </div>
       </section>
       </div>
-      <div>That friend who never repays his debt</div>
-      <div>Lessons learnt from my sad experience</div>
+      <h1>That friend who never repays his debt</h1>
+
+      <div className="fourth-container">
+      <img src={Image2} className="image2" />
+        <div className="right-content">
+        <div>Lessons learnt from my sad experience</div>
       <p>
         Danotious is a good friend of mine, we grew up in the same
         neighbourhood, had lots of fun moments and we sure did consider
@@ -115,17 +120,19 @@ function App() {
         He is a fraudstar and such persons who are not honest and true to their
         word should be avoided by all means necessary.
       </p>
-      <div>Avoid lending money to the wrong hands... Join lender today</div>
+      <div className="right-content-footer">Avoid lending money to the wrong hands... Join lender today</div>
+        </div>
+      </div>
+
       <div>Rate credit worthiness and avoid fraudsters</div>
       <div>Available on</div>
-      <img src={Image2} className="image2" />
       <img src={Image3} className="image3" />
       {/* <img src={Image4} className="image4" /> */}
 
-      {/* <Footer>
-        Borrow>>> <br/>
-        Lend>>>
-      </Footer> */}
+      <footer>
+        Borrow>>>       Lend>>>
+        <hr/>
+      </footer>
     </div>
   );
 }
