@@ -130,8 +130,7 @@ function App() {
       {/* <img src={Image4} className="image4" /> */}
 
       <footer>
-        Borrow>>>       Lend>>>
-        <hr/>
+        
       </footer>
     </div>
   );
