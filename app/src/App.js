@@ -151,7 +151,7 @@ function App() {
       <img src={Image3} className="image3" />
       <img src={Image5} className="image5" />
 
-      <footer><img src={Request} className="Request icon" /></footer>
+      <footer><img src={Request} className="Request-icon" /><hr className="ruler"/></footer>
     </div>
   );
 }
