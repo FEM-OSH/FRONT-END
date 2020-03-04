@@ -8,6 +8,7 @@ import Image2 from "./images/Web-image2.png";
 import Image3 from "./images/Web-image3.png";
 import Image5 from "./images/Web-image5.png";
 import Request from "./images/request-trans.png";
+import Available from "./images/available.png";
 import "./App.css";
 
 function App() {
@@ -77,30 +78,27 @@ function App() {
               </p>
             </div>
             <div>
-            <div class="box2">
-            </div>
-            <div>Add family &amp; friends</div>
+              <div class="box2"></div>
+              <div>Add family &amp; friends</div>
               <p>
                 Add your people who would be able to render help in your time of
                 need.{" "}
               </p>
             </div>
             <div>
-            <div class="box3">
-            </div>
-            <div>Take our credit test</div>
+              <div class="box3"></div>
+              <div>Take our credit test</div>
               <p>
                 This is more of a survey that contains details for your profile
                 and access your credit rating.{" "}
               </p>
             </div>
             <div>
-            <div class="box4">
-            </div>
-            <div>Request/accept loan request</div>
+              <div class="box4"></div>
+              <div>Request/accept loan request</div>
               <p>
-                Request for loan from a friend, accept/reject an already initiated
-                request
+                Request for loan from a friend, accept/reject an already
+                initiated request
               </p>
             </div>
           </div>
@@ -147,11 +145,17 @@ function App() {
       </div>
 
       <div>Rate credit worthiness and avoid fraudsters</div>
-      <div>Available on</div>
       <img src={Image3} className="image3" />
       <img src={Image5} className="image5" />
+      <div className="availability">
+        <div>Available on</div>
+        <img src={Available} className="available" />
+      </div>
 
-      <footer><img src={Request} className="Request-icon" /><hr className="ruler"/></footer>
+      <footer>
+        <img src={Request} className="Request-icon" />
+        <hr className="ruler" />
+      </footer>
     </div>
   );
 }
