@@ -144,11 +144,11 @@ function App() {
         </div>
       </div>
 
-      <div>Rate credit worthiness and avoid fraudsters</div>
-      <img src={Image3} className="image3" />
+      <div>RATE CREDIT WORTHINESS AND AVOID FRAUDSTERS</div>
       <img src={Image5} className="image5" />
+      <img src={Image3} className="image3" />
       <div className="availability">
-        <div>Available on</div>
+        <div className="text">Available on</div>
         <img src={Available} className="available" />
       </div>
 
