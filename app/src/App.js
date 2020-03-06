@@ -5,7 +5,7 @@ import { colors } from "./reusables";
 import Logo from "./images/logo.jpg";
 import Image1 from "./images/Web-image1.png";
 import Image2 from "./images/Web-image2.png";
-import Image3 from "./images/Web-image3.png";
+import Alt from "./images/alt.png";
 import Image5 from "./images/Web-image5.png";
 import Request from "./images/request-trans.png";
 import Available from "./images/available.png";
@@ -144,9 +144,9 @@ function App() {
         </div>
       </div>
 
-      <div>RATE CREDIT WORTHINESS AND AVOID FRAUDSTERS</div>
-      <img src={Image5} className="image5" />
-      <img src={Image3} className="image3" />
+      {/* <div className="credit-content">RATE CREDIT WORTHINESS<br/> AND <br/>AVOID FRAUDSTERS</div> */}
+      {/* <img src={Image5} className="image5" /> */}
+      <img src={Alt} className="image3" />
       <div className="availability">
         <div className="text">Available on</div>
         <img src={Available} className="available" />
